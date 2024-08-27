@@ -6,8 +6,8 @@ title: Vincent Trosky
 name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Vincent
+last_name: Trosky
 
 # Status emoji
 status:
