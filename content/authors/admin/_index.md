@@ -175,6 +175,6 @@ awards:
 
 ## About Me
 
-I am a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from the Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software engineering.
+I am a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from the Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
 
 I am currently working to design and control a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech.
