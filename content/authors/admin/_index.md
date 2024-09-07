@@ -44,51 +44,51 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: MS Autonomous Systems and Robotics
+    institution: Illinois Institute of Technology
+    date_start: 2022-08-01
+    date_end: 2024-08-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Optimal Control, Modern Control Systems, Computer Vision and Image Processing, 
+      Advanced Dynamics, Engineering Analysis, Data-Driven Modeling
+  - area: BSc Mechanical Engineering
+    institution: Illinois Institute of Technology
+    date_start: 2019-08-01
+    date_end: 2024-08-01
     summary: |
-      GPA: 3.4/4.0
-      
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Dynamics, Mechanics of Solids (x5), Thermodynamics (x2), Fluid Mechanics, Data Structures & Algorithms
+    area: Study Abroad Summer Semester
+    institution: Hochschule München
+    date_start: 2022-03-01
+    date_end: 2022-08-01
+    summary: |
+      Courses included:
+      - Heat & Mass Transfer, Aerospace Control Systems
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Research Assistant
+    company_name: Nonsmooth Robotics Lab
+    company_url: 'https://sites.google.com/iit.edu/nonsmoothrobotics/home'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-12-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Designed and assembled a spring-actuated mini bipedal robot with single-link legs and developed a closed-loop control system
+      - •	Publishing the open-source design, assembly, and control documentation, including details on how to integrate servo and BLDC motors, ultrasonic sensors, an IMU, and eventually OptiTrack’s camera-based optical tracking system
+      - •	Implementing an optimal control algorithm that minimizes power consumption over varying terrain elevations.
+  - position: LiDAR and Propulsion Lead
+    company_name: Illinois Tech EcoCAR
     company_url: ''
     company_logo: ''
     date_start: 2016-01-01
@@ -175,6 +175,6 @@ awards:
 
 ## About Me
 
-I am a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from the Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
+I am a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
 
 I am currently working to design and control a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech.
