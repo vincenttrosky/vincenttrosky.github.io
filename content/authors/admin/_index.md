@@ -61,6 +61,7 @@ education:
       Courses included:
       - Optimal Control, Modern Control Systems, Computer Vision and Image Processing, 
       Advanced Dynamics, Engineering Analysis, Data-Driven Modeling
+
   - area: BSc Mechanical Engineering
     institution: Illinois Institute of Technology
     date_start: 2019-08-01
@@ -68,7 +69,8 @@ education:
     summary: |
       Courses included:
       - Dynamics, Mechanics of Solids (x5), Thermodynamics (x2), Fluid Mechanics, Data Structures & Algorithms
-    area: Study Abroad Summer Semester
+
+  - area: Study Abroad Summer Semester
     institution: Hochschule München
     date_start: 2022-03-01
     date_end: 2022-08-01
@@ -78,26 +80,48 @@ education:
 work:
   - position: Research Assistant
     company_name: Nonsmooth Robotics Lab
-    company_url: 'https://sites.google.com/iit.edu/nonsmoothrobotics/home'
+    company_url: https://sites.google.com/iit.edu/nonsmoothrobotics/home
     company_logo: ''
     date_start: 2023-12-01
     date_end: ''
     summary: |2-
       Responsibilities include:
       - Designed and assembled a spring-actuated mini bipedal robot with single-link legs and developed a closed-loop control system
-      - •	Publishing the open-source design, assembly, and control documentation, including details on how to integrate servo and BLDC motors, ultrasonic sensors, an IMU, and eventually OptiTrack’s camera-based optical tracking system
-      - •	Implementing an optimal control algorithm that minimizes power consumption over varying terrain elevations.
-  - position: LiDAR and Propulsion Lead
-    company_name: Illinois Tech EcoCAR
+      - Publishing the open-source design, assembly, and control documentation, including details on how to integrate servo and BLDC motors, ultrasonic sensors, an IMU, and eventually OptiTrack’s camera-based optical tracking system
+     
+  - position: Teaching Assistant
+    company_name: Illinois Institute of Technology
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-08-01
+    date_end: ''
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Recorded supplementary lecture videos, advised lesson plans, and oversaw manufacturing efforts in a sophomore-level mechanical design course.
+    
+  - position: Applications Engineering Intern
+    company_name: DMG Mori USA
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-05-01
+    date_end: 2023-08-01
+    summary: |
+      Responsibilities include:
+      - Designed and manufactured a spinning top on an DMG Mori NLX 2500 lathe, reducing cycle time using NX CAD/CAM.
+      - Completed tool assembly and work holding for a hydraulic aircraft manifold project.
+    
+  - position: Project Engineering Intern
+    company_name: Dimension Inx
+    company_url: https://www.dimensioninx.com/
+    company_logo: ''
+    date_start: 2023-05-01
+    date_end: 2023-08-01
+    summary: |
+      Responsibilities include:
+      - Synthesized material for the first ever FDA-cleared 3D-printed biomaterials for bone graft applications in the human body.
+      -	Designed and developed a powder-saline mixing syringe to improve product shelf life from two days to five months.
+      - Evaluated mechanical properties of 3-D printed biomaterial and microstructure combinations to ensure human tissue compatibility.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -105,17 +129,31 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+      - name: MATLAB/Simulink
+      - name: C++
+      - name: ROS2
+      - name: Computer Vision
+      - name: SolidWorks
+      - name: Inventor
+      - name: Fusion360
+      - name: NX
+      - name: Mastercam
+      - name: FEA (Structural)
+      - name: Technical Writing (LaTeX)
+
+
+        
+      #   description: ''
+      #   percent: 80
+      #   icon: code-bracket
+      # - name: Data Science
+      #   description: ''
+      #   percent: 100
+      #   icon: chart-bar
+      # - name: SQL
+      #   description: ''
+      #   percent: 40
+      #   icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
