@@ -126,7 +126,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Software
     items:
       - name: Python
       - name: MATLAB/Simulink
@@ -140,6 +140,8 @@ skills:
       - name: Mastercam
       - name: FEA (Structural)
       - name: Technical Writing (LaTeX)
+  - name: Mechanical Design
+    items:
 
 
         
@@ -154,22 +156,22 @@ skills:
       #   description: ''
       #   percent: 40
       #   icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  #     - name: Cats
+  #       description: ''
+  #       percent: 100
+  #       icon: cat
+  #     - name: Photography
+  #       description: ''
+  #       percent: 80
+  #       icon: camera
 
 languages:
   - name: English
