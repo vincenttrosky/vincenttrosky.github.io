@@ -28,11 +28,11 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
+# - name: Custom Link
+#   url: http://example.org
 - name: Design Review
   url2: preprint.pdf
-url_pdf: ''
+# url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: '#'
@@ -75,7 +75,7 @@ Add the publication's **full text** or **supplementary notes** here. You can use
 Testing
 control algorithms for bipedal robots on physical hardware can
 become a time-consuming and expensive process. The robot
-presented in this paper offers a modular, open-source platform
+presented in this project offers a modular, open-source platform
 for bipedal control algorithm testing for roughly $200. The
 manufacturing process requires simple 3D-printing, turning,
 and drilling operations. The final prototype can stand passively
