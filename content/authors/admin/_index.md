@@ -39,9 +39,10 @@ profiles:
     url: https://www.linkedin.com/in/vincent-trosky/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Robotics
+  - Mechanical Design
+  - STEM Outreach
+  - Volleyball
 
 education:
   # - area: PhD Artificial Intelligence
@@ -126,22 +127,31 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Software
+  - name: Robotics
     items:
+      - name: ROS 2
       - name: Python
       - name: MATLAB/Simulink
       - name: C++
-      - name: ROS2
-      - name: Computer Vision
+      - name: SLAM
+      - name: Computer Vision (YOLO)
+  - name: Mechanical Design
+    items:
       - name: SolidWorks
       - name: Inventor
       - name: Fusion360
       - name: NX
-      - name: Mastercam
       - name: FEA (Structural)
-      - name: Technical Writing (LaTeX)
-  - name: Mechanical Design
+      - name: Milling (3+2 axis) & turning (3-axis)
+      - name: 3-D printing (FDM/Biomaterials)
+  - name: Other
     items:
+      - name: Technical Writing (LaTeX)
+      - name: MasterCAM
+      - name: Java
+
+
+
 
 
         
@@ -215,6 +225,6 @@ awards:
 
 ## About Me
 
-I am a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
+Hello! Welcome to my project portfolio! I'm Vincent, a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
 
-I am currently working to design and control a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech.
+My two primary projects right now include (1) a mobile robot capable of SLAM and object-tracking and (2) a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech.
