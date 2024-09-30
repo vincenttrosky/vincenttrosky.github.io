@@ -71,7 +71,7 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
 
-# Introduction
+## Summary
 
 Testing
 control algorithms for bipedal robots on physical hardware can
@@ -83,3 +83,7 @@ and drilling operations. The final prototype can stand passively
 and will soon be tested using a planar support mechanism on
 a treadmill to constrain the robot to the saggital plane and
 identify compatible control approaches.
+
+
+## Status
+Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.

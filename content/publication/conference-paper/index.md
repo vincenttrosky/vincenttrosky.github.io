@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'Building a Mobile Robot Capable of SLAM and Object-Tracking'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
