@@ -13,7 +13,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-07-30T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -34,7 +34,10 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - ROS 2
+  - OpenCV
+  - SLAM
+  - Robotics
 
 # Display this page in the Featured widget?
 featured: true
