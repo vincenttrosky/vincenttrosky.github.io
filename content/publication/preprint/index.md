@@ -43,10 +43,10 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
+  placement: 2
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
-  align: center
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
