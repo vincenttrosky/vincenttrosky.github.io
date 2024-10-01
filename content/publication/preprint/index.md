@@ -45,7 +45,7 @@ url_video: ''
 image:
   placement: 2
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-  focal_point: "Center"
+  focal_point: 'Center'
   preview_only: false
 
 # Associated Projects (optional).
