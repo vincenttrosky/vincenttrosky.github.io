@@ -34,10 +34,10 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+  - Robotics
   - ROS 2
   - OpenCV
   - SLAM
-  - Robotics
 
 # Display this page in the Featured widget?
 featured: true
