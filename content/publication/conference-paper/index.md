@@ -47,15 +47,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-params:
-  url_project: 'https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/'
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+# url_project: ''
+# url_pdf: ''
+# url_code: ''
+# url_dataset: ''
+# url_poster: ''
+# url_slides: ''
+url_source: 'https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/'
+# url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
