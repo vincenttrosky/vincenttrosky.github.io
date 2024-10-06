@@ -47,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_project: 'https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/'
+url_project: https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/
 url_pdf: ''
 url_code: ''
 url_dataset: ''
