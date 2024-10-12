@@ -229,4 +229,3 @@ Hello! Welcome to my project portfolio! I'm Vincent, a mechanical and robotics e
 
 My two primary projects right now include (1) a mobile robot capable of SLAM and object-tracking and (2) a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech.
 
-{{< list_tags >}}
