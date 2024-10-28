@@ -63,7 +63,7 @@ education:
       - Optimal Control, Modern Control Systems, Computer Vision and Image Processing, 
       Advanced Dynamics, Engineering Analysis, Data-Driven Modeling
 
-  - area: BSc Mechanical Engineering
+  - area: BS Mechanical Engineering
     institution: Illinois Institute of Technology
     date_start: 2019-08-01
     date_end: 2024-08-01
