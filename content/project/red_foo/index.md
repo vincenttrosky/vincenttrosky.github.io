@@ -87,7 +87,11 @@ The tree pangolin's tree climbing gait cycle informed many of the design decisio
 
 After being compared with numerous other concepts, this design was selected due to its lightweight nature and strong correlation with an existing animal's gait. As seen in the images below, the robot was sketched by hand, drawn and animated in Autodesk Inventor, and fabricated using primarily 3D printed PLA and laser cut 1/8" MDF board.
 
-![targets](content/project/red_foo/RedFoo Drawing Bioinspired Robot Tree Pangolin.jpg)]
+![targets](]
+
+<div style="text-align: center;">
+    <img src="content/project/red_foo/RedFoo Drawing Bioinspired Robot Tree Pangolin.jpg)">
+</div>
 
 ## Results
 
