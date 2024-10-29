@@ -90,7 +90,7 @@ After being compared with numerous other concepts, this design was selected due 
 ![targets](]
 
 <div style="text-align: center;">
-    <img src="content/project/red_foo/RedFoo Drawing Bioinspired Robot Tree Pangolin.jpg)">
+    <img src="content/project/red_foo/RedFoo Drawing Bioinspired Robot Tree Pangolin.jpg">
 </div>
 
 ## Results
