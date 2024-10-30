@@ -83,14 +83,20 @@ The goal of this project was to build a bioinspired robot capable of climbing a 
 
 The tree pangolin's tree climbing gait cycle informed many of the design decisions on my robot. As seen in the video above, the pangolin contracts and extends its abdomen to alternate between gripping the tree with clawed forelimbs and hindlimbs. Similarly, my robot uses a rack and pinion mechanism to extend its upper half to grab the next peg with two spring-loaded hooks or "claws". The pangolin uses its tail to maintain stability between grips. Similarly, my robot uses its lower rigid body to maintain contact with two pegs at once, effectively maintaining stability while reaching for the next peg. Once the next peg has been hooked, the robot pulls the lower rigid body and hooks up to the next peg.
 
-## Design Evolution
+## Design
 
-After being compared with numerous other concepts, this design was selected due to its lightweight nature and strong correlation with an existing animal's gait. As seen in the images below, the robot was sketched by hand, drawn and animated in Autodesk Inventor, and fabricated using primarily 3D printed PLA and laser cut 1/8" MDF board.
+After being compared with numerous other concepts, this design was selected due to its lightweight nature and strong correlation with an existing animal's gait. The robot was sketched by hand, drawn and animated in Autodesk Inventor, and fabricated using primarily 3D printed PLA and laser cut 1/8" MDF board.
 
 <div style="text-align: center;">
     <img src="redfoo_drawing.jpg" alt="A sketch of the robot">
 </div>
 
+A key feature of this design is the spring-loaded hooks at the top of the robot. As the top of the hooks come into contact with the next peg, the springs compress to allow the hooks to passively maneuver around and over the peg. To ensure that the rack and pinion moves as desired, an animation was created in Autodesk Inventor as seen below.
+
+<div style="text-align: center;">
+    <img src="red_foo_animation.gif" alt="A sketch of the robot">
+</div>
+
 ## Results
 
-The robot successfully scaled roughly half of the pegboard on its best climb. Unfortunately, there was at least one slightly loose peg in every column of the pegboard. My design did not account for that possibility, so the hooks did not always engage completely when attempting to mount a loose peg. The video at the top of this page shows an instance of this at the 0.19 sec mark. If I were to have had the chance to iterate on this design, I would have enlarged the mouth of the upper hooks to ensure that they engage with every peg they come into contact with.
+The robot successfully scaled roughly half of the pegboard on its best climb. During testing, we realized there was at least one slightly loose peg in every column of the pegboard. My design did not account for that possibility, so the hooks did not always engage completely when attempting to mount a loose peg. The video at the top of this page shows an instance of this at the 0.19 sec mark. If I were to have had the chance to iterate further on this design, I would have enlarged the mouth of the upper hooks to ensure that they engage with every peg they come into contact with.
