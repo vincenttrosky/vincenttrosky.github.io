@@ -149,7 +149,7 @@ skills:
       - name: MasterCAM
       - name: Java
       - name: Milling (3+2 axis) & turning (3-axis)
-      - name: 
+      - name: Teaching
       - name: 
 
 
