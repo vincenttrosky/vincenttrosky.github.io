@@ -23,7 +23,8 @@ publishDate: "2017-01-01T00:00:00Z"
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Nonsmooth Robotics Lab
+- Graduate Projects
+- Computer Vision
 
 featured: true
 
@@ -46,7 +47,7 @@ image:
   placement: 2
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: 'Center'
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

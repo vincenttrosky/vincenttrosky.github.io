@@ -94,7 +94,7 @@ After being compared with numerous other concepts, this design was selected due 
 A key feature of this design is the spring-loaded hooks at the top of the robot. As the top of the hooks come into contact with the next peg, the springs compress to allow the hooks to passively maneuver around and over the peg. To better visualize the movement of the rack an pinon, an animation was created in Autodesk Inventor as seen below.
 
 <div style="text-align: center;">
-    <img src="red_foo_animation.gif" alt="A sketch of the robot">
+    <img src="red_foo_animation.gif" alt="An animation of the robot">
 </div>
 
 ## Results

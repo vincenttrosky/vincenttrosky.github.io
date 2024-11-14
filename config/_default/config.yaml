@@ -6,7 +6,7 @@
 # Website name
 title: Vincent Trosky
 # Website URL
-baseURL: 'vincenttrosky.github.io'
+baseURL: 'https://vincenttrosky.github.io'
 
 ############################
 ## LANGUAGE

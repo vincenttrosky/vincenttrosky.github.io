@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Student Organizations | Vincent Trosky</title>
+    <link>http://localhost:1313/tags/student-organizations/</link>
+      <atom:link href="http://localhost:1313/tags/student-organizations/index.xml" rel="self" type="application/rss+xml" />
+    <description>Student Organizations</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Student Organizations</title>
+      <link>http://localhost:1313/tags/student-organizations/</link>
+    </image>
+    
+    <item>
+      <title>Illinois Tech Hyperloop</title>
+      <link>http://localhost:1313/project/hyperloop/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/hyperloop/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The IIT Hyperloop team was a student organization that aimed to compete in the now discontinued &lt;a href=&#34;https://en.wikipedia.org/wiki/Hyperloop_pod_competition&#34;&gt;SpaceX Hyperloop Pod Competition&lt;/a&gt;. As Vice President, I oversaw the design, build, and testing of three hyperloop pods. Over the course of three years, I helped manage a combined budget of ~$70,000 and a core team of about 20 people.&lt;/p&gt;
+&lt;h2 id=&#34;the-hawkmobile-20&#34;&gt;The Hawkmobile 2.0&lt;/h2&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;featured.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;The final Hawkmobile 2.0 pod prototype.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The Hawkmobile 2.0 hyperloop pod was the second iteration of the Hawkmobile (see last section of this page). This design featured a custom carbon fiber shell, a BLDC-based propulsion system, and a pneumatic braking system. One of our members made the following Blender rendering of our pod.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Zg9Hi_hnfd0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;propulsion-and-suspension&#34;&gt;Propulsion and Suspension&lt;/h3&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;hyperloop_cad.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;A side-view CAD rendering of the hyperloop pod prototype mounted onto the I-beam track.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The image above, the propulsion system is highlighted blue. Wheels were mounted directly to the shafts of BLDC motors. The motors were mounted directly to rocker arms which maintained a point of contact with each of the following: a wheel, a fixed revolving joint on the chassis, and a moving revolving point on a mountain bike shock. Also pictured above are the battery boxes (large grey rectangles), ESCs motor drivers (small grey rectangles on battery boxes), and the braking system (center).&lt;/p&gt;
+&lt;h3 id=&#34;braking&#34;&gt;Braking&lt;/h3&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;hyperloop_braking.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;A section view of the pod featuring one of the two pneumatic braking systems highlighted in blue on the left. The other is mirrored to right of it.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;To actuate the braking system, a pneumatic actuator extends vertically to push the  outer joints (far left) of two rocker arms away from one another. The middle joints in the arms function as pivot points. Attached to the inner joints are two aluminum brake pads. Aluminum was chosen because aluminum on aluminum had a very high coefficient of friction, and we were not concerned with damaging the I-beam track that we built. Below is a successful test of alumninum brake pads on an alumninum flywheel.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/kAmrWyPlRj0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;carbon-fiber-frame-and-shell&#34;&gt;Carbon Fiber Frame and Shell&lt;/h3&gt;
+&lt;h3 id=&#34;i-beam-test-track&#34;&gt;I-Beam Test Track&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

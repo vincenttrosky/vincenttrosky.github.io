@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mechanical Design | Vincent Trosky</title>
+    <link>http://localhost:1313/tags/mechanical-design/</link>
+      <atom:link href="http://localhost:1313/tags/mechanical-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mechanical Design</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Mechanical Design</title>
+      <link>http://localhost:1313/tags/mechanical-design/</link>
+    </image>
+    
+    <item>
+      <title>Bioinspired Lightweight Climbing Robot</title>
+      <link>http://localhost:1313/project/red_foo/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/red_foo/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/o-Uxel5dEWk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The goal of this project was to build a bioinspired robot capable of climbing a 10-ft. wooden pegboard in my Design for Innovation course. The robot was made primarily using 3D printed parts, 1/8&amp;quot; MDF board, and various fasteners. An Arduino Uno was used to apply open-loop control to two continuous servos which drove a rack-and-pinion mechanism. Design constraints included a low servo stall torque and clear bioinspiration.&lt;/p&gt;
+&lt;h2 id=&#34;bioinspiration&#34;&gt;Bioinspiration&lt;/h2&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/U1UxnXnpDME?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;The tree pangolin&amp;rsquo;s tree climbing gait cycle informed many of the design decisions on my robot. As seen in the video above, the pangolin contracts and extends its abdomen to alternate between gripping the tree with clawed forelimbs and hindlimbs. Similarly, my robot uses a rack and pinion mechanism to extend its upper half to grab the next peg with two spring-loaded hooks or &amp;ldquo;claws&amp;rdquo;. The pangolin uses its tail to maintain stability between grips. Similarly, my robot uses its lower rigid body to maintain contact with two pegs at once, effectively maintaining stability while reaching for the next peg. Once the top peg has been hooked, the robot lifts its lower rigid body onto the next hook, and the cycle repeats.&lt;/p&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;After being compared with numerous other concepts, this design was selected due to its lightweight nature and strong correlation with an existing animal&amp;rsquo;s gait cycle. The robot was sketched by hand, drawn and animated in Autodesk Inventor, and fabricated using primarily 3D printed PLA and laser cut 1/8&amp;quot; MDF board.&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;redfoo_drawing.jpg&#34; alt=&#34;A sketch of the robot&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;A key feature of this design is the spring-loaded hooks at the top of the robot. As the top of the hooks come into contact with the next peg, the springs compress to allow the hooks to passively maneuver around and over the peg. To better visualize the movement of the rack an pinon, an animation was created in Autodesk Inventor as seen below.&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;red_foo_animation.gif&#34; alt=&#34;An animation of the robot&#34;&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The robot successfully scaled roughly half of the pegboard on its best climb. During testing, we realized there was at least one slightly loose peg in every column of the pegboard. My design did not account for that possibility, so the hooks did not always engage completely when attempting to mount a loose peg. The video at the top of this page shows an instance of this at the 0.19 sec mark. If I were to have had the chance to iterate further on this design, I would have enlarged the mouth of the upper hooks to ensure complete engagement with every peg.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
