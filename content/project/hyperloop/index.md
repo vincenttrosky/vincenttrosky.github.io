@@ -109,7 +109,36 @@ To actuate the braking system, a pneumatic actuator extends vertically to push t
 
 ### Carbon Fiber Frame and Shell
 
+To ensure our design was as lightweight as possible, we opted for a carbon fiber frame and outer shell. Our frame required unique manufacturing and assembly techniques. Most parts were cut using a carbide saw or Dremel blade, but parts with more distinct profiles like the front panels required the use of a CNC mill. Since the part was so thin, the best workholding solution was vacuum workholding. Below is a picture of me holding the parts, the first parts I had ever milled.
 
+<figure style="width: 100%; margin: 0;">
+    <img src="front panel.jpg" style="width: 100%; display: block;">
+    <figcaption style="text-align: center;">Left: The carbon fiber frame with two front panels highlighted. Right: Me holding the front panels after CNC milling them with vacuum workholding</figcaption>
+</figure>
+
+The frame was assembled using only epoxy, which required a number of overnight clamping configurations to allow the epoxy to harden. The carbon fiber shell required a wet layup, which none of us had done before. First, we 3D printed five parts that were epoxied together to create a negative mold seen on the left below.
+
+<figure style="width: 100%; margin: 0;">
+    <img src="mold_and_vacuum.jpg" style="width: 100%; display: block;">
+    <figcaption style="text-align: center;">Left: The 3D-printed negative mold. Right: The vacuum bagged carbon fiber wet layup.</figcaption>
+</figure>
+
+We then buffed the mold with a mold polish/gel coat and brushed it with a mixture of epoxy cure and laminating resin. We then laid in 4 sheets of carbon fiber, brushing each with the cure/resin mixture. We lined the carbon fiber with cloth and placed it in a 40psi vacuum bag to let it cure overnight as seen in the image above. The next day, we cut the excess hardened carbon fiber with a carbide Dremel fitting, sanded, and sprayed the final product (stickers included!) with a couple of layers of clearcoat as seen below.
+
+{{< youtube mRfZHpiHiRc>}}
 
 ### I-Beam Test Track
+To test our prototype, we built a 400-foot I-beam test track. Unfortunately, we never did get to use it, as our pod had a lateral suspension system that needed to be completely redesigned and would require work past the end of the school year.
+<figure style="width: 100%; margin: 0;">
+    <img src="test_track.jpg" style="width: 100%; display: block;">
+    <figcaption style="text-align: center;">Assembling the 400-foot I-beam test track.</figcaption>
+</figure>
+
+### Pod Reveal
+
+At the end of the school year, our President and I presented the work our team had done. At the end of the presentation, we revealed the Hawkmobile 2.0. The slides for the presentation are available at the top of this webpage.
+
+{{< youtube Hd6QrYwmYT4>}}
+
+
 

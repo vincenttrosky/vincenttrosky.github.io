@@ -6,7 +6,7 @@
 # Website name
 title: Vincent Trosky
 # Website URL
-baseURL: 'https://vincenttrosky.github.io'
+baseURL: 'http://localhost:1313'
 
 ############################
 ## LANGUAGE

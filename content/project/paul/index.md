@@ -72,6 +72,11 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
 
+<figure style="width: 100%; margin: 0;">
+    <img src="featured.jpg" style="width: 100%; display: block;">
+    <figcaption style="text-align: center;"></figcaption>
+</figure>
+
 ## Summary
 
 Testing
@@ -86,5 +91,5 @@ a treadmill to constrain the robot to the saggital plane and
 identify compatible control approaches.
 
 
-## Status
+## Status (In Progress...)
 Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.
