@@ -52,7 +52,7 @@ and will soon be tested using a planar support mechanism on
 a treadmill to constrain the robot to the saggital plane and
 identify compatible control approaches.&lt;/p&gt;
 &lt;h2 id=&#34;status-in-progress&#34;&gt;Status (In Progress&amp;hellip;)&lt;/h2&gt;
-&lt;p&gt;Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&#34;design_review.pdf&#34;&gt;PDF&lt;/a&gt; and &lt;a href=&#34;IROS2023_Poster_Template.pdf&#34;&gt;Poster&lt;/a&gt; links at the top of the page for more info! Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.&lt;/p&gt;
 </description>
     </item>
     

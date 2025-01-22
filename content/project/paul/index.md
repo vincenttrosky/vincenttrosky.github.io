@@ -22,6 +22,8 @@ publishDate: "2017-01-01T00:00:00Z"
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
+summary: This project aims to propose a framework for computing a library of stable gaits for general biped robots.
+
 tags:
 - Nonsmooth Robotics Lab
 
@@ -29,12 +31,12 @@ featured: true
 
 links:
 # - name: Custom Link
-#   url: http://example.org
-url2: preprint.pdf
-# url_pdf: ''
+#   url: 'http://example.org'
+# url2: 'preprint.pdf'
+url_pdf: 'project/paul/design_review.pdf'
 url_code: ''
 url_dataset: ''
-url_poster: '#'
+url_poster: 'IROS2023_Poster_Template.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
@@ -72,12 +74,18 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
 
+
+
 <figure style="width: 100%; margin: 0;">
     <img src="featured.jpg" style="width: 100%; display: block;">
     <figcaption style="text-align: center;"></figcaption>
 </figure>
 
+
+
 ## Summary
+
+See the <a href="design_review.pdf">PDF</a> and <a href="IROS2023_Poster_Template.pdf">Poster</a> links at the top of the page for more info! 
 
 Testing
 control algorithms for bipedal robots on physical hardware can
@@ -92,4 +100,5 @@ identify compatible control approaches.
 
 
 ## Status (In Progress...)
-Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.
+
+Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking. 

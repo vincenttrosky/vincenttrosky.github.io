@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Improving YOLO V2 From Scratch</title>
+      <title>Improving YOLO V2</title>
       <link>http://localhost:1313/project/yolo_v2v3/</link>
       <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/yolo_v2v3/</guid>
@@ -36,19 +36,19 @@
 &lt;/div&gt;
 
 Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;featured.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Testing
-control algorithms for bipedal robots on physical hardware can
-become a time-consuming and expensive process. The robot
-presented in this project offers a modular, open-source platform
-for bipedal control algorithm testing for roughly $200. The
-manufacturing process requires simple 3D-printing, turning,
-and drilling operations. The final prototype can stand passively
-and will soon be tested using a planar support mechanism on
-a treadmill to constrain the robot to the saggital plane and
-identify compatible control approaches.&lt;/p&gt;
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
-&lt;p&gt;Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&#34;Final Project_ Improving YOLOv2.pdf&#34;&gt;PDF above&lt;/a&gt; for the full report!&lt;/p&gt;
+&lt;p&gt;“You Only Look Once version 2” (YOLOv2) is an object detection algorithm capable of
+completing real-time object detection tasks. Developed by Joseph Redmon and Ali Farhadi, YOLOv2 is a deep learning-based algorithm that approaches object
+detection as a single regression problem. After dividing an input image into a grid, the algorithm
+uses anchor bounding boxes around objects and produces class probabilities for each grid cell.
+The algorithm then uses this data and performs feature extraction based on prior training over a
+set of image classes using a deep convolutional neural network (CNN).&lt;/p&gt;
+&lt;p&gt;In this project, I attempted to modify the the Darknet-19 backbone used by YOLOv2. All Max Pooling layers in the backbone were replaced by convolutional layers in an attempt to increase the amount of relevant information being transmitted between layer input and output. My attempt did not outperform the baseline model at the 50 epoch checkpoint, as the mean average precision (mAP) decreased from 70% to 28%. Eventually, I would like to go back and attempt to replace the Darknet-19 backbone with a residual backbone like ResNet or modify the loss function to improve performance.&lt;/p&gt;
 </description>
     </item>
     

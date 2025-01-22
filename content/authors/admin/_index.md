@@ -145,12 +145,13 @@ skills:
       - name: 3-D printing (FDM/Biomaterials)
   - name: Other
     items:
-      - name: Technical Writing (LaTeX)
       - name: MasterCAM
       - name: Java
-      - name: Milling (3+2 axis) & turning (3-axis)
+      - name: Milling (3+2 axis)
+      - name: Turning (3-axis)
       - name: Teaching
-      - name: 
+      - name: Technical Writing (LaTeX)
+
 
 
 
@@ -221,11 +222,14 @@ skills:
 #     icon: datacamp
 #     summary: |
 #       Object-oriented...
+
+
+# I recently gradauted from Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics.
 ---
 
 ## About Me
 
-Hello! Welcome to my project portfolio! I'm Vincent, a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I recently gradauted from Illinois Institute of Technology with a Master's degree in Autonomous Systems and Robotics. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
+Hello! Welcome to my project portfolio! I'm Vincent, a mechanical and robotics engineer with a passion for developing complete robotic systems that solve real-world problems. I have strong backgrounds in mechanical design, mechatronics, manufacturing, and most recently, robotics software and controls engineering.
 
-My two primary projects right now include (1) a mobile robot capable of SLAM and object-tracking and (2) a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech.
+<!-- My two primary projects right now include (1) a mobile robot capable of SLAM and object-tracking and (2) a mini bipedal limit-cycle walker in the Nonsmooth Robotics Lab at Illinois Tech. -->
 

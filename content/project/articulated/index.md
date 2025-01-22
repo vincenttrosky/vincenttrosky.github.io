@@ -1,5 +1,5 @@
 ---
-title: 'Building a Mobile Robot Capable of SLAM and Object-Tracking'
+title: 'Mobile Robot Capable of SLAM and Object-Tracking'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -13,11 +13,11 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2019-07-30T00:00:00Z'
+# date: '1800-01-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+# publishDate: '2017-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -31,21 +31,22 @@ publication_short: In *ICW*
 # abstract: 
 
 # Summary. An optional shortened abstract.
-# summary: 
+summary: A differential drive robot that uses 2-D lidar and a Raspberry Pi camera to navigate and to track and identify objects.
 
 tags:
   - Robotics
   - ROS 2
   - OpenCV
   - SLAM
+  - C++
 
 # Display this page in the Featured widget?
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Articulated Robotics website
+  url: https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/
 
 # url_project: ''
 # url_pdf: ''
@@ -53,7 +54,7 @@ featured: true
 # url_dataset: ''
 # url_poster: ''
 # url_slides: ''
-url_source: 'https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/'
+url_source: ''
 # url_video: ''
 
 # Featured image
@@ -90,4 +91,6 @@ Create your slides in Markdown - click the _Slides_ button to check out the exam
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
 
 ## Status
-Currently, parts are being shipped and received to build the robot.
+Currently, parts are being shipped and received to build the robot. See the <a href="https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/">Articulated Robotics website</a> for an overview of the project.
+
+

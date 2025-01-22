@@ -20,7 +20,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Our student organization developed a hyperloop pod intended for the SpaceX Pod Competition.
 
 tags:
 - Student Organizations
@@ -71,9 +71,13 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
 
+<figure style="width: 100%; margin: 0;">
+    <img src="Team Pic.jpg" style="width: 100%; display: block;">
+</figure>
+
 ## Summary
 
-The IIT Hyperloop team was a student organization that aimed to compete in the now discontinued <a href="https://en.wikipedia.org/wiki/Hyperloop_pod_competition">SpaceX Hyperloop Pod Competition</a>. As Vice President, I oversaw the design, build, and testing of three hyperloop pods. Over the course of three years, I helped manage a combined budget of ~$70,000 and a core team of about 20 people.
+The IIT Hyperloop team was a student organization that aimed to compete in the now discontinued <a href="https://en.wikipedia.org/wiki/Hyperloop_pod_competition">SpaceX Hyperloop Pod Competition</a>. As Vice President, I oversaw the design, build, and testing of three hyperloop pods. Over the course of three years, I helped manage a combined budget of ~$70,000 and a team of about 15 people.
 
 
 ## The Hawkmobile 2.0

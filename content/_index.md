@@ -1,4 +1,6 @@
 ---
+
+
 # Leave the homepage title empty to use the site title
 title: ""
 date: 2022-10-24
@@ -9,7 +11,9 @@ design:
   spacing: "6rem"
 
 sections:
+
   - block: resume-biography-3   #under content/authors/admin/index.md
+    id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -30,6 +34,45 @@ sections:
           size: cover
           position: center
           parallax: false
+
+  - block: collection
+    id: projects
+    content:
+      title: My Projects
+      filters:
+        folders:
+          - project
+        featured_only: true
+      count: 12
+      align: center
+    design:
+      view: article-grid
+      columns: 3
+      background:
+        css_class: dark
+        # color: black
+        # image:
+        #   # Add your image background to `assets/media/`.
+        #   filename: stacked-peaks.svg
+        #   filters:
+        #     brightness: 1.0
+        #   size: cover
+        #   position: center
+        #   parallax: false
+
+  - block: markdown
+    id: contact
+    content:
+      title: 'Contact'
+      subtitle: ''
+      text: |-
+       <p style="text-align: center;"> vincenttrosky@gmail.com </p>
+       <p style="text-align: center;"> (314)-601-5348 </p>
+       <p style="text-align: center;"> <a href="https://www.linkedin.com/in/vincent-trosky">linkedin.com/in/vincent-trosky</a></p>
+
+       
+
+
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
@@ -42,17 +85,7 @@ sections:
   #       Please reach out to collaborate 😃
   #   design:
   #     columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 3
+
       
   # - block: collection
   #   content:
