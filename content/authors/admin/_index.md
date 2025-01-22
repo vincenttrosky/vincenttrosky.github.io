@@ -95,10 +95,13 @@ work:
     company_url: ''
     company_logo: ''
     date_start: 2024-08-01
-    date_end: ''
+    date_end: 2024-12-31
     summary: |
-      Responsibilities include:
-      - Recorded supplementary lecture videos, advised lesson plans, and oversaw manufacturing efforts in a sophomore-level mechanical design course.
+      - Responsibilities include:
+      Delivered lectures, guided lesson plans, and supervised manufacturing processes in a second-year mechanical design course.
+      - Developed a conceptual EV-charging differential drive robot featuring a sturdy foam-core frame, a 4-bar linkage, an infrared sensor,
+      and Arduino-based control.
+      - Instructed on engineering topics including MATLAB's fmincon optimization, Arduino basics, mechatronics, CAD, and structural FEA.
     
   - position: Applications Engineering Intern
     company_name: DMG Mori USA
