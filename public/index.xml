@@ -281,6 +281,41 @@ set of image classes using a deep convolutional neural network (CNN).&lt;/p&gt;
     </item>
     
     <item>
+      <title>SolidWorks Modeling</title>
+      <link>http://localhost:1313/project/445/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/445/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This is a summary of the work I completed in IIT&amp;rsquo;s MMAE 445 CAD/CAM course. I used SolidWorks to model and perform FEA on each part and MasterCAM to program each toolpath.&lt;/p&gt;
+&lt;h2 id=&#34;midterm-report&#34;&gt;Midterm Report&lt;/h2&gt;
+&lt;p&gt;Open the &lt;a href=&#34;Midterm Report Copy.pdf&#34;&gt;PDF&lt;/a&gt; here for the full report!&lt;/p&gt;
+&lt;iframe src=&#34;Midterm Report Copy.pdf&#34; width=&#34;100%&#34; height=&#34;500&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;final-report&#34;&gt;Final Report&lt;/h2&gt;
+&lt;p&gt;Open the &lt;a href=&#34;Final Report Copy.pdf&#34;&gt;PDF&lt;/a&gt; here for the full report!&lt;/p&gt;
+&lt;iframe src=&#34;Final Report Copy.pdf&#34; width=&#34;100%&#34; height=&#34;500&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
@@ -527,7 +562,7 @@ set of image classes using a deep convolutional neural network (CNN).&lt;/p&gt;
 
 
 
-&lt;div id=&#34;chart-735162984&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-395128674&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -545,7 +580,7 @@ set of image classes using a deep convolutional neural network (CNN).&lt;/p&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-735162984&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-395128674&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

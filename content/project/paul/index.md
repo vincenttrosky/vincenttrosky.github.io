@@ -28,7 +28,7 @@ tags:
 - Nonsmooth Robotics Lab
 - Mech. Design
 - CAD
-- Manufacuturing
+- Manufacturing
 - Control Systems
 
 featured: true
