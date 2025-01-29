@@ -30,6 +30,7 @@ tags:
 - OpenCV
 - Python
 - Reinforcement Learning
+- Computer Vision
 
 featured: true
 

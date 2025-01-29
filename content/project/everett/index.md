@@ -24,12 +24,11 @@ summary: This robot served as a model for a semester-long mechanical design proj
 
 tags:
 - Teaching
-- Mech. Design
+- Mechanical Design
 - CAD
 - Inventor
 - FEA
 - MATLAB
-- Robotics
 - Manufacturing
 - Arduino
 

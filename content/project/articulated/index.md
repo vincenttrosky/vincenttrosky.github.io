@@ -41,7 +41,6 @@ tags:
   - C++
   - CAD
   - Raspberry Pi
-  - SolidWorks
 
 # Display this page in the Featured widget?
 featured: true
