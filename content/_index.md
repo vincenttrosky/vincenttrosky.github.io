@@ -24,6 +24,7 @@ sections:
         url: uploads/resume.pdf
     design:
       css_class: dark
+      css_style: "padding: 2rem 1rem 5rem 1rem;"
       background:
         color: black
         image:
@@ -59,6 +60,16 @@ sections:
         #   size: cover
         #   position: center
         #   parallax: false
+      css_style: "padding: 5rem 1rem 0.5rem 1rem;"
+
+  - block: markdown
+    id: tags
+    content:
+      title: Topics
+      text: |-
+        {{< list_tags >}}
+    design:
+      css_style: "padding: 0rem; text-align: center;"
 
   - block: markdown
     id: contact
@@ -69,8 +80,8 @@ sections:
        <p style="text-align: center;"> vincenttrosky@gmail.com </p>
        <p style="text-align: center;"> (314)-601-5348 </p>
        <p style="text-align: center;"> <a href="https://www.linkedin.com/in/vincent-trosky">linkedin.com/in/vincent-trosky</a></p>
-
-       
+    design:
+      css_style: "padding: 5rem; text-align: center;"
 
 
   # - block: markdown

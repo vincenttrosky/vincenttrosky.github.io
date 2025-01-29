@@ -27,6 +27,10 @@ summary: Compared Q-learning and SARSA reinforcement learning algorithms to solv
 
 tags:
 - Graduate Projects
+- OpenCV
+- Python
+- Reinforcement Learning
+
 featured: true
 
 # links:

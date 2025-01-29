@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inventor | Vincent Trosky</title>
+    <link>http://localhost:1313/tags/inventor/</link>
+      <atom:link href="http://localhost:1313/tags/inventor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Inventor</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Inventor</title>
+      <link>http://localhost:1313/tags/inventor/</link>
+    </image>
+    
+    <item>
+      <title>&#39;&#39;EV&#39;&#39; Charging Robot</title>
+      <link>http://localhost:1313/project/everett/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/everett/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/5w-dWMcIABg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I created this model robot in my teaching assistant position at IIT in effort to redesign the curriculum of a sophomore-level mechanical design course (MMAE 232). The students were required to build a mobile robot that could conceptually &amp;ldquo;charge an electric vehicle&amp;rdquo;. My robot served as a model for a 3-part, semester-long project  that consisted the following tasks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Design and build a foam-core frame capable of supporting a human&amp;rsquo;s weight.&lt;/li&gt;
+&lt;li&gt;Optimize, design, and build a four-bar linkage.&lt;/li&gt;
+&lt;li&gt;Incorporate the frame and four-bar linkage into a mobile robot capable of navigating an environment, charging an &amp;ldquo;EV&amp;rdquo; upon receiving an infrared (IR) signal, and returning to base.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To teach students how to build the robots, I advised and delivered lectures on skills including CAD (Inventor), structural FEA, DFM, Arduino Uno programming, MATLAB, and mechatronics basics. The robots used components including foam-core board, MDF, 3-D printed parts, stepper motors, H-bridges, Arduino Unos, and various fasteners.&lt;/p&gt;
+&lt;h2 id=&#34;foam-core-frame-part-13&#34;&gt;Foam-Core Frame (Part 1/3)&lt;/h2&gt;
+&lt;p&gt;The first part of the project was to construct a sturdy foam core frame that could support the weight of a human. Students designed their frames in Inventor and ran structural FEA to analyze where stress concentrations and failure points might occur. Upon my approval, students laser cut, assembled, and tested the frames.&lt;/p&gt;
+&lt;p&gt;My design from Fall 2020 seen in the image below weighed &amp;lt;500g and was able to support both my weight and my professor&amp;rsquo;s. In this version of the course, the design was required to take the form of a chair rather than just a frame. After this test, I continued to sit in my chair each morning for 3 months while I put my socks on until it finally collapsed.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;fea_sitting_new.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Structural FEA completed on my chair to identify stress concentrations (left) and me sitting on my chair in Fall 2020 (right).&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;four-bar-linkage-part-23&#34;&gt;Four-Bar Linkage (Part 2/3)&lt;/h2&gt;
+&lt;p&gt;The second part of this project was to create a four-bar linkage mounted inside of the frame from Part 1. The linkage was required to actuate in and out of a small square in the front of the frame. The linkage needed an end-effector, which was required to make contact with an &amp;ldquo;EV charging port&amp;rdquo; four inches away from the frame.&lt;/p&gt;
+&lt;p&gt;We provided the students with a MATLAB library which ultimately applied fmincon to the linkage&amp;rsquo;s position, size, and constraints. An example is seen below, where the large rectangle represents the frame and pink square slit, the &amp;ldquo;X&amp;rdquo; in space represents the &amp;ldquo;EV charging port&amp;rdquo;, and the moving rectangle on the left represents an initial four-bar linkage that does not meet constraint criteria. The animation on the right represents an optimized solution for the constraint set.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;x0-xopt4.gif&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;An insufficient four-bar linkage solution (left) and a solution optimized using MATLAB&#39;s fmincon that fit the set of constraints provided (right).&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;After finding an optimized solution, students were required to laser cut, build, and integrate their solutions into a frame I provided or their own for extra credit. Below is a video of my optimized four-bar linkage solution actuating in and out of the frame. On the tip of the end effector is a piece of copper tape which makes contact with two other pieces of copper tape, ultimately closing a circuit and turning on a green LED. If the green LED turned on, the &amp;ldquo;EV&amp;rdquo; was considered to be successfully &amp;ldquo;charging&amp;rdquo;.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MjolQ9eNrr8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;ev-charging-robot-part-33&#34;&gt;EV Charging Robot (Part 3/3)&lt;/h2&gt;
+&lt;p&gt;The final portion of this project required students to put the frame on wheels, navigate to the EV charging port, actuate the four-bar linkage upon receiving a specific IR signal, and retreat to base. The IR signal was emitted from the transmitter mounted to the EV charging port, and the receiver was mounted to the front of the robot as seen below.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;transmitter_receiver.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;The transmitter was mounted on the EV charging port and the receiver was mounted to the front of the robot.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The students also received extra credit if their robot successfully charged two EVs in a grid world. The grid worlds I created incorporated obstacles made of MDF and were outlined as follows.&lt;/p&gt;
+&lt;iframe src=&#34;grid_worlds.pdf&#34; width=&#34;100%&#34; height=&#34;500&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Most students created differential drive robots and elected to charge only one EV. Stepper motors drove the rear wheels which required students to use H-bridge motor drivers and an Arduino Uno. See the video at the top of the page for the final result!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

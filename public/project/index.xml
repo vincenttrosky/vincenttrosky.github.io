@@ -110,6 +110,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     &lt;figcaption style=&#34;text-align: center;&#34;&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;See the &lt;a href=&#34;design_review.pdf&#34;&gt;PDF&lt;/a&gt; and &lt;a href=&#34;IROS2023_Poster_Template.pdf&#34;&gt;Poster&lt;/a&gt; links at the top of the page for more info!&lt;/p&gt;
 &lt;p&gt;Testing
 control algorithms for bipedal robots on physical hardware can
 become a time-consuming and expensive process. The robot
@@ -121,7 +122,7 @@ and will soon be tested using a planar support mechanism on
 a treadmill to constrain the robot to the saggital plane and
 identify compatible control approaches.&lt;/p&gt;
 &lt;h2 id=&#34;status-in-progress&#34;&gt;Status (In Progress&amp;hellip;)&lt;/h2&gt;
-&lt;p&gt;See the &lt;a href=&#34;design_review.pdf&#34;&gt;PDF&lt;/a&gt; and &lt;a href=&#34;IROS2023_Poster_Template.pdf&#34;&gt;Poster&lt;/a&gt; links at the top of the page for more info! Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.&lt;/p&gt;
+&lt;p&gt;Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.&lt;/p&gt;
 </description>
     </item>
     
@@ -251,7 +252,7 @@ detection as a single regression problem. After dividing an input image into a g
 uses anchor bounding boxes around objects and produces class probabilities for each grid cell.
 The algorithm then uses this data and performs feature extraction based on prior training over a
 set of image classes using a deep convolutional neural network (CNN).&lt;/p&gt;
-&lt;p&gt;In this project, I attempted to modify the the Darknet-19 backbone used by YOLOv2. All Max Pooling layers in the backbone were replaced by convolutional layers in an attempt to increase the amount of relevant information being transmitted between layer input and output. My attempt did not outperform the baseline model at the 50 epoch checkpoint, as the mean average precision (mAP) decreased from 70% to 28%. Eventually, I would like to go back and attempt to replace the Darknet-19 backbone with a residual backbone like ResNet or modify the loss function to improve performance.&lt;/p&gt;
+&lt;p&gt;In this project, I attempted to modify the the Darknet-19 backbone used by YOLOv2. All Max Pooling layers in the backbone were replaced by convolutional layers in an attempt to increase the amount of relevant information being transmitted between layer input and output. My attempt did not outperform the baseline model at the 50 epoch checkpoint, as the mean average precision (mAP) decreased from 70% to 28% and the frames per second (FPS) rate decreased from 71.88 to 62.63. Eventually, I would like to go back and attempt to replace the Darknet-19 backbone with a residual backbone like ResNet or modify the loss function to improve performance.&lt;/p&gt;
 </description>
     </item>
     

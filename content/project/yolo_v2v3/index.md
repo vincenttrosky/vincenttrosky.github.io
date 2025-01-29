@@ -27,6 +27,10 @@ summary: This project was an attempt improve the YOLO V2 baseline model.
 tags:
 - Graduate Projects
 - Computer Vision
+- YOLO
+- Python
+- Machine Learning
+
 
 featured: true
 

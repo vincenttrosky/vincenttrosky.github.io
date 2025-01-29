@@ -26,6 +26,10 @@ summary: This project aims to propose a framework for computing a library of sta
 
 tags:
 - Nonsmooth Robotics Lab
+- Mech. Design
+- CAD
+- Manufacuturing
+- Control Systems
 
 featured: true
 

@@ -5,12 +5,143 @@
     <link>http://localhost:1313/tags/opencv/</link>
       <atom:link href="http://localhost:1313/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
     <description>OpenCV</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>OpenCV</title>
       <link>http://localhost:1313/tags/opencv/</link>
     </image>
+    
+    <item>
+      <title>Reinforcement Learning Path Planning: Q-Learning vs. SARSA</title>
+      <link>http://localhost:1313/project/cereal/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/cereal/</guid>
+      <description>&lt;!-- 
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;This project applied two model-free reinforcement learning (RL) approaches to maze solving: Q-learning and State-Action-Reward-State-Action (SARSA). The RL models utilized existing OpenCV functions to interpret 9x9 maze images. Each image was automatically generated using a minimum-spanning tree via Kruskal’s algorithm. The model navigated from the top left to the bottom right and was evaluated on factors like proper navigation path output, convergence rate, and run time. Results suggest that certain parameters in both Q-learning and SARSA algorithms can be manipulated for improved performance metrics.&lt;/p&gt;
+&lt;h2 id=&#34;maze-analysis-and-representation&#34;&gt;Maze Analysis and Representation&lt;/h2&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;red_green_maze.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;The maze (left) was modeled using the reward matrix (right). The green dot and circle represent the agent&#39;s starting point. The red dot and circle represent the end point.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;To assign rewards to each cell location, the image was converted to grayscale, and the color
+of a single pixel from each cell was sampled using OpenCV. If
+the pixel was white, the reward was set to
+-1, and if black, the reward was set to -100.
+A negative RL system was chosen to
+prevent the agent from exploring the maze
+indefinitely to maximize rewards. The
+bottom right white cell was given a reward
+of 100 to ensure that the agent completed
+the maze. Each reward was stored in the
+matrix seen above to model the maze.&lt;/p&gt;
+&lt;h2 id=&#34;markov-decision-process-and-q-tables&#34;&gt;Markov Decision Process and Q-Tables&lt;/h2&gt;
+&lt;p&gt;RL algorithms are often modeled using the Markov Decision Process (MDP),
+a probabilistic model that makes decisions
+for an agent in a given environment. An MDP uses a &lt;u&gt;state&lt;/u&gt;, &lt;u&gt;action&lt;/u&gt;, &lt;u&gt;policy&lt;/u&gt;, and &lt;u&gt;reward&lt;/u&gt; to interpret and learn about the environment.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A state, 𝑠, is a summary of an agent’s
+current state within its environment defined
+by a unique set of variables.&lt;/li&gt;
+  &lt;li&gt;An action, 𝐴(𝑠), is a deliberate
+change in state. &lt;/li&gt;
+  &lt;li&gt;The policy
+is to interpret the agent’s current state and
+potential proceeding actions to choose the
+state-action pair that maximizes or
+minimizes the reward.
+&lt;/li&gt;
+  &lt;li&gt;The reward, &lt;em&gt;R&lt;/em&gt;, assigns value to state-action pairs.
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this case, the states are position coordinates (x,y) in the maze and the actions are &amp;ldquo;up&amp;rdquo;, &amp;ldquo;down&amp;rdquo;, &amp;ldquo;left&amp;rdquo;, and &amp;ldquo;right&amp;rdquo; as seen below.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;empty_q_table.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;A visual representation of my empty 3D Q-table before training.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Q-learning and SARSA use Q-tables to evaluate the &amp;ldquo;quality&amp;rdquo; of state-action pairs. These tables store Q-values which represent the current estimate of the sum of all future rewards for a certain state-action pair. Both approaches use model-free reinforcement learning, meaning all q-values start at zero and are updated throughout the training phase.&lt;/p&gt;
+&lt;h2 id=&#34;training-phase&#34;&gt;Training Phase&lt;/h2&gt;
+&lt;p&gt;During training, the agent randomly explores the maze and updates the Q-values as it moves until there are a string of Q-values higher than the rest along the start&amp;ndash;&amp;gt;end path. The sequence is as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Start at random location/state on the path.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move up, down, right, or left, depending which associated Q-value is highest. If all Q-values are the same, choose one at random.&lt;/p&gt;
+&lt;p&gt;a) SARSA: The optimal action (highest Q-value) is always chosen.&lt;/p&gt;
+&lt;p&gt;b) Q-Learning: 10% of the time, a random exploratory action is chosen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Update last Q-value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Repeat 2-3 if agent is still on the path. Start over if agent ran into a wall.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Continue until Q-tables converge to an optimal solution!&lt;/p&gt;
+&lt;h2 id=&#34;updating-q-values-q-learning-vs-sarsa&#34;&gt;Updating Q-Values: Q-Learning vs. SARSA&lt;/h2&gt;
+&lt;p&gt;When the agent encounters a specific state-action (s,a) pair, the algorithm updates the associated Q-value. The updating functions that correspond to Q-learning and SARSA are outlined below.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;algorithms.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;The functions used to update Q-values in Q-Learning and SARSA algorithms.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;These two functions have a lot in common:&lt;/p&gt;
+&lt;p&gt;Q&lt;sub&gt;2&lt;/sub&gt;(s,a) &amp;ndash;&amp;gt; the &lt;u&gt;updated Q-value&lt;/u&gt; for a given state-action pair.&lt;/p&gt;
+&lt;p&gt;Q&lt;sub&gt;1&lt;/sub&gt;(s,a) &amp;ndash;&amp;gt; the &lt;u&gt;old Q-value&lt;/u&gt; for a given state-action pair.&lt;/p&gt;
+&lt;p&gt;Alpha (α) &amp;ndash;&amp;gt; the &lt;u&gt;learning rate&lt;/u&gt;, which determines how quickly the agent should learn.&lt;/p&gt;
+&lt;p&gt;Gamma (γ) &amp;ndash;&amp;gt; the &lt;u&gt;discount factor&lt;/u&gt;, which determines how much future rewards are valued compared to immediate rewards, balancing short-term and long-term decision-making.&lt;/p&gt;
+&lt;p&gt;The primary difference between the two functions is that the Q-learning function is off-policy while the SARSA function is on-policy.
+This means that Q-learning occasionally selects a lower Q-value to encourage exploration, whereas SARSA consistently chooses the optimal action.
+Q&lt;sub&gt;1&lt;/sub&gt;(s&lt;sub&gt;t+1&lt;/sub&gt;, a) and Q&lt;sub&gt;1&lt;/sub&gt;(s&lt;sub&gt;t+1&lt;/sub&gt;, a&lt;sub&gt;t+1&lt;/sub&gt;) will always equal the maximum Q-value available for the next state, s&lt;sub&gt;t+1&lt;/sub&gt;.
+However, in the off-policy Q-learning case, this maximum Q-value may not be the one used to determine the next action.
+As a result, r&lt;sub&gt;k&lt;/sub&gt; always reflects the reward received at the resulting state, regardless of the maximum Q-value. The off-policy nature of Q-learning was informed in this project by an epsilon-greedy algorithm where a random value of x is chosen:&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;epsilon_greedy.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Action-selection logic for Q-Learning and SARSA.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Ultimately, SARSA consistently used less training episodes to converge on the optimal solution. The primary reason was because the Q-learning algorithm attempted to explore the environment further, despite having strong indications throughout training that only one solution to the maze existed. Alternatively, SARSA quickly honed in on the correct solution once it found one.&lt;/p&gt;
+&lt;p&gt;Below, convergence frequency was plotted against the number of training episodes attempted, clearly showing that SARSA generally converged faster.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;results.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Convergence Frequency vs. Training Episodes for Q-Learning and SARSA algorithms.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The parameters in the top left of the plot were tweaked as well to produce other plots. These plots can be seen near the end of the slides linked at the top of this page.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mobile Robot Capable of SLAM and Object-Tracking</title>

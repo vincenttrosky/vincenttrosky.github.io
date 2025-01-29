@@ -23,7 +23,12 @@ publishDate: "2017-01-01T00:00:00Z"
 summary: Designed and manufactured a bioinspired robot to scale a 10-ft. wooden pegboard.
 
 tags:
-- Mechanical Design
+- Arduino
+- Mech. Design
+- CAD
+- Inventor
+- Robotics
+- Manufacturing
 
 featured: true
 

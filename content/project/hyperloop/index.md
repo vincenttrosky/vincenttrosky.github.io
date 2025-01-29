@@ -24,6 +24,11 @@ summary: Our student organization developed a hyperloop pod intended for the Spa
 
 tags:
 - Student Organizations
+- Mech. Design
+- Fusion360
+- CAD
+- CAM
+- Manufacturing
 
 featured: true
 

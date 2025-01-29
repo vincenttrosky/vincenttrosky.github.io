@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAD | Vincent Trosky</title>
+    <link>http://localhost:1313/tags/cad/</link>
+      <atom:link href="http://localhost:1313/tags/cad/index.xml" rel="self" type="application/rss+xml" />
+    <description>CAD</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>CAD</title>
+      <link>http://localhost:1313/tags/cad/</link>
+    </image>
+    
+    <item>
+      <title>&#39;&#39;EV&#39;&#39; Charging Robot</title>
+      <link>http://localhost:1313/project/everett/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/everett/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/5w-dWMcIABg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I created this model robot in my teaching assistant position at IIT in effort to redesign the curriculum of a sophomore-level mechanical design course (MMAE 232). The students were required to build a mobile robot that could conceptually &amp;ldquo;charge an electric vehicle&amp;rdquo;. My robot served as a model for a 3-part, semester-long project  that consisted the following tasks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Design and build a foam-core frame capable of supporting a human&amp;rsquo;s weight.&lt;/li&gt;
+&lt;li&gt;Optimize, design, and build a four-bar linkage.&lt;/li&gt;
+&lt;li&gt;Incorporate the frame and four-bar linkage into a mobile robot capable of navigating an environment, charging an &amp;ldquo;EV&amp;rdquo; upon receiving an infrared (IR) signal, and returning to base.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To teach students how to build the robots, I advised and delivered lectures on skills including CAD (Inventor), structural FEA, DFM, Arduino Uno programming, MATLAB, and mechatronics basics. The robots used components including foam-core board, MDF, 3-D printed parts, stepper motors, H-bridges, Arduino Unos, and various fasteners.&lt;/p&gt;
+&lt;h2 id=&#34;foam-core-frame-part-13&#34;&gt;Foam-Core Frame (Part 1/3)&lt;/h2&gt;
+&lt;p&gt;The first part of the project was to construct a sturdy foam core frame that could support the weight of a human. Students designed their frames in Inventor and ran structural FEA to analyze where stress concentrations and failure points might occur. Upon my approval, students laser cut, assembled, and tested the frames.&lt;/p&gt;
+&lt;p&gt;My design from Fall 2020 seen in the image below weighed &amp;lt;500g and was able to support both my weight and my professor&amp;rsquo;s. In this version of the course, the design was required to take the form of a chair rather than just a frame. After this test, I continued to sit in my chair each morning for 3 months while I put my socks on until it finally collapsed.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;fea_sitting_new.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Structural FEA completed on my chair to identify stress concentrations (left) and me sitting on my chair in Fall 2020 (right).&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;four-bar-linkage-part-23&#34;&gt;Four-Bar Linkage (Part 2/3)&lt;/h2&gt;
+&lt;p&gt;The second part of this project was to create a four-bar linkage mounted inside of the frame from Part 1. The linkage was required to actuate in and out of a small square in the front of the frame. The linkage needed an end-effector, which was required to make contact with an &amp;ldquo;EV charging port&amp;rdquo; four inches away from the frame.&lt;/p&gt;
+&lt;p&gt;We provided the students with a MATLAB library which ultimately applied fmincon to the linkage&amp;rsquo;s position, size, and constraints. An example is seen below, where the large rectangle represents the frame and pink square slit, the &amp;ldquo;X&amp;rdquo; in space represents the &amp;ldquo;EV charging port&amp;rdquo;, and the moving rectangle on the left represents an initial four-bar linkage that does not meet constraint criteria. The animation on the right represents an optimized solution for the constraint set.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;x0-xopt4.gif&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;An insufficient four-bar linkage solution (left) and a solution optimized using MATLAB&#39;s fmincon that fit the set of constraints provided (right).&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;After finding an optimized solution, students were required to laser cut, build, and integrate their solutions into a frame I provided or their own for extra credit. Below is a video of my optimized four-bar linkage solution actuating in and out of the frame. On the tip of the end effector is a piece of copper tape which makes contact with two other pieces of copper tape, ultimately closing a circuit and turning on a green LED. If the green LED turned on, the &amp;ldquo;EV&amp;rdquo; was considered to be successfully &amp;ldquo;charging&amp;rdquo;.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MjolQ9eNrr8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;ev-charging-robot-part-33&#34;&gt;EV Charging Robot (Part 3/3)&lt;/h2&gt;
+&lt;p&gt;The final portion of this project required students to put the frame on wheels, navigate to the EV charging port, actuate the four-bar linkage upon receiving a specific IR signal, and retreat to base. The IR signal was emitted from the transmitter mounted to the EV charging port, and the receiver was mounted to the front of the robot as seen below.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;transmitter_receiver.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;The transmitter was mounted on the EV charging port and the receiver was mounted to the front of the robot.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The students also received extra credit if their robot successfully charged two EVs in a grid world. The grid worlds I created incorporated obstacles made of MDF and were outlined as follows.&lt;/p&gt;
+&lt;iframe src=&#34;grid_worlds.pdf&#34; width=&#34;100%&#34; height=&#34;500&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Most students created differential drive robots and elected to charge only one EV. Stepper motors drove the rear wheels which required students to use H-bridge motor drivers and an Arduino Uno. See the video at the top of the page for the final result!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Control of a Mini Bipedal Robot</title>
+      <link>http://localhost:1313/project/paul/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/paul/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;featured.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;See the &lt;a href=&#34;design_review.pdf&#34;&gt;PDF&lt;/a&gt; and &lt;a href=&#34;IROS2023_Poster_Template.pdf&#34;&gt;Poster&lt;/a&gt; links at the top of the page for more info!&lt;/p&gt;
+&lt;p&gt;Testing
+control algorithms for bipedal robots on physical hardware can
+become a time-consuming and expensive process. The robot
+presented in this project offers a modular, open-source platform
+for bipedal control algorithm testing for roughly $200. The
+manufacturing process requires simple 3D-printing, turning,
+and drilling operations. The final prototype can stand passively
+and will soon be tested using a planar support mechanism on
+a treadmill to constrain the robot to the saggital plane and
+identify compatible control approaches.&lt;/p&gt;
+&lt;h2 id=&#34;status-in-progress&#34;&gt;Status (In Progress&amp;hellip;)&lt;/h2&gt;
+&lt;p&gt;Currently, the robot is being fitted with current sensors to enable elementary feedback control. PID controllers will be the first controllers applied to achieve limit-cycle walking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Illinois Tech Hyperloop</title>
+      <link>http://localhost:1313/project/hyperloop/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/hyperloop/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;Team Pic.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The IIT Hyperloop team was a student organization that aimed to compete in the now discontinued &lt;a href=&#34;https://en.wikipedia.org/wiki/Hyperloop_pod_competition&#34;&gt;SpaceX Hyperloop Pod Competition&lt;/a&gt;. As Vice President, I oversaw the design, build, and testing of three hyperloop pods. Over the course of three years, I helped manage a combined budget of ~$70,000 and a team of about 15 people.&lt;/p&gt;
+&lt;h2 id=&#34;the-hawkmobile-20&#34;&gt;The Hawkmobile 2.0&lt;/h2&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;featured.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;The final Hawkmobile 2.0 pod prototype.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The Hawkmobile 2.0 hyperloop pod was the second iteration of the Hawkmobile (see last section of this page). This design featured a custom carbon fiber shell, a BLDC-based propulsion system, and a pneumatic braking system. One of our members made the following Blender rendering of our pod.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Zg9Hi_hnfd0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;propulsion-and-suspension&#34;&gt;Propulsion and Suspension&lt;/h3&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;hyperloop_cad.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;A side-view CAD rendering of the hyperloop pod prototype mounted onto the I-beam track.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The image above, the propulsion system is highlighted blue. Wheels were mounted directly to the shafts of BLDC motors. The motors were mounted directly to rocker arms which maintained a point of contact with each of the following: a wheel, a fixed revolving joint on the chassis, and a moving revolving point on a mountain bike shock. Also pictured above are the battery boxes (large grey rectangles), ESCs motor drivers (small grey rectangles on battery boxes), and the braking system (center).&lt;/p&gt;
+&lt;h3 id=&#34;braking&#34;&gt;Braking&lt;/h3&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;hyperloop_braking.png&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;A section view of the pod featuring one of the two pneumatic braking systems highlighted in blue on the left. The other is mirrored to right of it.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;To actuate the braking system, a pneumatic actuator extends vertically to push the  outer joints (far left) of two rocker arms away from one another. The middle joints in the arms function as pivot points. Attached to the inner joints are two aluminum brake pads. Aluminum was chosen because aluminum on aluminum had a very high coefficient of friction, and we were not concerned with damaging the I-beam track that we built. Below is a successful test of alumninum brake pads on an alumninum flywheel.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/kAmrWyPlRj0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;carbon-fiber-frame-and-shell&#34;&gt;Carbon Fiber Frame and Shell&lt;/h3&gt;
+&lt;p&gt;To ensure our design was as lightweight as possible, we opted for a carbon fiber frame and outer shell. Our frame required unique manufacturing and assembly techniques. Most parts were cut using a carbide saw or Dremel blade, but parts with more distinct profiles like the front panels required the use of a CNC mill. Since the part was so thin, the best workholding solution was vacuum workholding. Below is a picture of me holding the parts, the first parts I had ever milled.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;front panel.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Left: The carbon fiber frame with two front panels highlighted. Right: Me holding the front panels after CNC milling them with vacuum workholding&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The frame was assembled using only epoxy, which required a number of overnight clamping configurations to allow the epoxy to harden. The carbon fiber shell required a wet layup, which none of us had done before. First, we 3D printed five parts that were epoxied together to create a negative mold seen on the left below.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;mold_and_vacuum.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Left: The 3D-printed negative mold. Right: The vacuum bagged carbon fiber wet layup.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;We then buffed the mold with a mold polish/gel coat and brushed it with a mixture of epoxy cure and laminating resin. We then laid in 4 sheets of carbon fiber, brushing each with the cure/resin mixture. We lined the carbon fiber with cloth and placed it in a 40psi vacuum bag to let it cure overnight as seen in the image above. The next day, we cut the excess hardened carbon fiber with a carbide Dremel fitting, sanded, and sprayed the final product (stickers included!) with a couple of layers of clearcoat as seen below.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mRfZHpiHiRc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;i-beam-test-track&#34;&gt;I-Beam Test Track&lt;/h3&gt;
+&lt;p&gt;To test our prototype, we built a 400-foot I-beam test track. Unfortunately, we never did get to use it, as our pod had a lateral suspension system that needed to be completely redesigned and would require work past the end of the school year.&lt;/p&gt;
+&lt;figure style=&#34;width: 100%; margin: 0;&#34;&gt;
+    &lt;img src=&#34;test_track.jpg&#34; style=&#34;width: 100%; display: block;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: center;&#34;&gt;Assembling the 400-foot I-beam test track.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;pod-reveal&#34;&gt;Pod Reveal&lt;/h3&gt;
+&lt;p&gt;At the end of the school year, our President and I presented the work our team had done. At the end of the presentation, we revealed the Hawkmobile 2.0. The slides for the presentation are available at the top of this webpage.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Hd6QrYwmYT4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Bioinspired Lightweight Climbing Robot</title>
+      <link>http://localhost:1313/project/red_foo/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/red_foo/</guid>
+      <description>&lt;!-- This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/o-Uxel5dEWk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The goal of this project was to build a bioinspired robot capable of climbing a 10-ft. wooden pegboard in my Design for Innovation course. The robot was made primarily using 3D printed parts, 1/8&amp;quot; MDF board, and various fasteners. An Arduino Uno was used to apply open-loop control to two continuous servos which drove a rack-and-pinion mechanism. Design constraints included a low servo stall torque and clear bioinspiration.&lt;/p&gt;
+&lt;h2 id=&#34;bioinspiration&#34;&gt;Bioinspiration&lt;/h2&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/U1UxnXnpDME?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;The tree pangolin&amp;rsquo;s tree climbing gait cycle informed many of the design decisions on my robot. As seen in the video above, the pangolin contracts and extends its abdomen to alternate between gripping the tree with clawed forelimbs and hindlimbs. Similarly, my robot uses a rack and pinion mechanism to extend its upper half to grab the next peg with two spring-loaded hooks or &amp;ldquo;claws&amp;rdquo;. The pangolin uses its tail to maintain stability between grips. Similarly, my robot uses its lower rigid body to maintain contact with two pegs at once, effectively maintaining stability while reaching for the next peg. Once the top peg has been hooked, the robot lifts its lower rigid body onto the next hook, and the cycle repeats.&lt;/p&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;After being compared with numerous other concepts, this design was selected due to its lightweight nature and strong correlation with an existing animal&amp;rsquo;s gait cycle. The robot was sketched by hand, drawn and animated in Autodesk Inventor, and fabricated using primarily 3D printed PLA and laser cut 1/8&amp;quot; MDF board.&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;redfoo_drawing.jpg&#34; alt=&#34;A sketch of the robot&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;A key feature of this design is the spring-loaded hooks at the top of the robot. As the top of the hooks come into contact with the next peg, the springs compress to allow the hooks to passively maneuver around and over the peg. To better visualize the movement of the rack an pinon, an animation was created in Autodesk Inventor as seen below.&lt;/p&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    &lt;img src=&#34;red_foo_animation.gif&#34; alt=&#34;An animation of the robot&#34;&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The robot successfully scaled roughly half of the pegboard on its best climb. During testing, we realized there was at least one slightly loose peg in every column of the pegboard. My design did not account for that possibility, so the hooks did not always engage completely when attempting to mount a loose peg. The video at the top of this page shows an instance of this at the 0.19 sec mark. If I were to have had the chance to iterate further on this design, I would have enlarged the mouth of the upper hooks to ensure complete engagement with every peg.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Robot Capable of SLAM and Object-Tracking</title>
+      <link>http://localhost:1313/project/articulated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/articulated/</guid>
+      <description>&lt;!-- 
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+  
+    
+  
+
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
+&lt;p&gt;Currently, parts are being shipped and received to build the robot. See the &lt;a href=&#34;https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview/&#34;&gt;Articulated Robotics website&lt;/a&gt; for an overview of the project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
